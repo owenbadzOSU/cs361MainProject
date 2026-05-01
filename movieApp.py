@@ -1,15 +1,10 @@
 
 import csv
-import recomender
 import Movie
 import ast
 def movieApp(interest, runtime):
 
     movies = load_movies("imdb_top_250_movies_clean.csv")
-
-    for m in movies[:3]:
-        print(m)
-
     print("===================================")
     print("       MOVIE RECOMMENDER APP")
     print("===================================\n")
