@@ -38,8 +38,6 @@ def movieApp(interest, runtime):
 def recomender(interest, runtime, movies):
     iMovies = []
     for movie in movies:
-        print(movie.genres)
-        print(interest)
         if set(movie.genres) & set(interest):
             iMovies.append(movie)
 
